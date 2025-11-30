@@ -29,3 +29,17 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.custom-red-nav {
+    background-color: #cc0000 !important;
+}
+
+    .custom-red-nav .navbar-brand,
+    .custom-red-nav .nav-link {
+        color: #ffffff !important;
+    }
+
+        /* Optional: On hover, keep it white or make it lighter */
+        .custom-red-nav .nav-link:hover {
+            color: #f2f2f2 !important;
+        }

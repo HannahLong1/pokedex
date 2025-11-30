@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "PokeApiDemo.Controllers.PokemonController",
+    "Method": "GetPokemon",
+    "RelativePath": "api/Pokemon/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

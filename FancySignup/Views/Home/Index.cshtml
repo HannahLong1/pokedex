@@ -1,23 +1,16 @@
 ﻿@{
-    ViewData["Title"] = "Assignment 5 - Fancy Signup";
+    ViewData["Title"] = "Pokedex";
 }
 
-<h1>Assignment 5 - Fancy Signup</h1>
+<h1>Pokedex</h1>
+
+<p>Pokedex is your one stop shop for all things pokemon. After going through our secure account creation and login you can search up and view and Pokemon out their.</p>
 
 <p>
-    Create a Asp.Net Core MVC project. You will be creating multiple views and as needed, relevant models and controllers.
-    Initial signup page should be arranged in this fashion:</p>
-
-<p>
-    The initial page is a simple content page with the title Assignment 5 - Fancy Signup. Here, after the heading, provide a paragraph, placing the assignment instructions as its content. At the bottom, there should be two buttons: Signup and Login.
+    Using our advanced system we have access to all 1,025 pokemon from across all the games and regions. You can search up them just by typing in their name or if your already now their ID number you can use that instead.
 </p>
 <p>
-    After you click Signup, the user should be redirected to another page (signup page):    This page will contain some extra fields. Here the user will type his/her email address, first name, last name, country and password. Emails we are storing in the dB are unique so you can consider the Email field as the PersonId. No duplicates should be written into the database. All fields are required. For the countries, provide an additional model, similar to the Genre example we had in Unit 7 lecture and seed 5 countries of your choice. Passwords should match so include a second textbox for retyping the password. Passwords should begin with a letter, should include an uppercase letter , a lowercase letter and a digit. Passwords should at least be 8 characters long.
-    After the user signs up you should display a new page with some text ("Signup successful" page).
-</p>
-<p>
-    Login page contains two fields: email and password. If a matching user is found in the database, the user should be redirected to a 'Successful Login' page, saying: 'Welcome FirstName LastName'. Obviously here, you are fetching those first and last names from the database.
-
+    First you need to create an account or use one you already made to login, only then can you use our Pokedex
 </p>
 
 <a href="/Account/Signup" class="btn btn-primary">Signup</a>
