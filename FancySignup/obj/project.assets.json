@@ -607,6 +607,19 @@
           }
         }
       },
+      "PokeApiNet/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/PokeApiNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PokeApiNet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.11": {
         "type": "package",
         "dependencies": {
@@ -2450,6 +2463,21 @@
         "packageIcon.png"
       ]
     },
+    "PokeApiNet/4.1.0": {
+      "sha512": "3eU/WIW2N00CikDATuntV8gScbVwqPSJ2rT3zQAvH5hS8yIQuSCp5Xyt4l+bonUYA4Mb0j5EZvX5c8Wdwp3FiA==",
+      "type": "package",
+      "path": "pokeapinet/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PokeApiNet.dll",
+        "lib/netstandard2.0/PokeApiNet.xml",
+        "lib/netstandard2.1/PokeApiNet.dll",
+        "lib/netstandard2.1/PokeApiNet.xml",
+        "pokeapinet.4.1.0.nupkg.sha512",
+        "pokeapinet.nuspec"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.11": {
       "sha512": "DC4nA7yWnf4UZdgJDF+9Mus4/cb0Y3Sfgi3gDnAoKNAIBwzkskNAbNbyu+u4atT0ruVlZNJfwZmwiEwE5oz9LQ==",
       "type": "package",
@@ -2969,35 +2997,29 @@
     "net10.0": [
       "Microsoft.EntityFrameworkCore >= 10.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 10.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 10.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 10.0.0",
+      "PokeApiNet >= 4.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\miste\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/hannahlongoria/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miste\\source\\repos\\FancySignup\\FancySignup\\FancySignup.csproj",
+      "projectUniqueName": "/Users/hannahlongoria/Documents/GitHub/pokedex/FancySignup/FancySignup.csproj",
       "projectName": "FancySignup",
-      "projectPath": "C:\\Users\\miste\\source\\repos\\FancySignup\\FancySignup\\FancySignup.csproj",
-      "packagesPath": "C:\\Users\\miste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miste\\source\\repos\\FancySignup\\FancySignup\\obj\\",
+      "projectPath": "/Users/hannahlongoria/Documents/GitHub/pokedex/FancySignup/FancySignup.csproj",
+      "packagesPath": "/Users/hannahlongoria/.nuget/packages/",
+      "outputPath": "/Users/hannahlongoria/Documents/GitHub/pokedex/FancySignup/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\miste\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/hannahlongoria/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3035,6 +3057,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[10.0.0, )"
+          },
+          "PokeApiNet": {
+            "target": "Package",
+            "version": "[4.1.0, )"
           }
         },
         "imports": [
@@ -3056,7 +3082,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

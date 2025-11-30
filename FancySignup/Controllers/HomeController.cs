@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using FancySignup.Models;
 using Microsoft.AspNetCore.Mvc;
+using PokeApiNet;
 
 namespace FancySignup.Controllers
 {
