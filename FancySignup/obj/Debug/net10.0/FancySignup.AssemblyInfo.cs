@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FancySignup")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f202652e96fed1a461ece8bb1995a0f31c22c743")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afa625ec72a6151d27814feae6ecd186eac5cbaf")]
 [assembly: System.Reflection.AssemblyProductAttribute("FancySignup")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FancySignup")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
