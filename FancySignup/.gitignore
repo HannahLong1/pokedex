@@ -1,0 +1,11 @@
+# Build output
+bin/
+obj/
+
+# SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+.vs/
