@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|c:\\users\\miste\\documents\\github\\pokedex\\pokedex\\fancysignup\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|solutionrelative:fancysignup\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|c:\\users\\miste\\documents\\github\\pokedex\\pokedex\\fancysignup\\views\\account\\loginsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|solutionrelative:fancysignup\\views\\account\\loginsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|c:\\users\\miste\\documents\\github\\pokedex\\pokedex\\fancysignup\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|solutionrelative:fancysignup\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|c:\\users\\miste\\documents\\github\\pokedex\\pokedex\\fancysignup\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|solutionrelative:fancysignup\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|c:\\users\\miste\\documents\\github\\pokedex\\pokedex\\fancysignup\\views\\account\\signupsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|solutionrelative:fancysignup\\views\\account\\signupsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|c:\\users\\miste\\documents\\github\\pokedex\\pokedex\\fancysignup\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|solutionrelative:fancysignup\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|c:\\users\\miste\\documents\\github\\pokedex\\pokedex\\fancysignup\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|solutionrelative:fancysignup\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|c:\\users\\miste\\documents\\github\\pokedex\\pokedex\\fancysignup\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|solutionrelative:fancysignup\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|c:\\users\\miste\\documents\\github\\pokedex\\pokedex\\fancysignup\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B6471EBD-1246-9A7B-6BBA-8991AF5E1DE7}|FancySignup\\FancySignup.csproj|solutionrelative:fancysignup\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Account\\LoginSuccess.cshtml",
+              "RelativeDocumentMoniker": "FancySignup\\Views\\Account\\LoginSuccess.cshtml",
+              "ToolTip": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Account\\LoginSuccess.cshtml",
+              "RelativeToolTip": "FancySignup\\Views\\Account\\LoginSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T22:59:51.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Account\\Signup.cshtml",
+              "RelativeDocumentMoniker": "FancySignup\\Views\\Account\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Account\\Signup.cshtml",
+              "RelativeToolTip": "FancySignup\\Views\\Account\\Signup.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T22:57:32.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FancySignup\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "FancySignup\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T22:57:22.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignupSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Account\\SignupSuccess.cshtml",
+              "RelativeDocumentMoniker": "FancySignup\\Views\\Account\\SignupSuccess.cshtml",
+              "ToolTip": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Account\\SignupSuccess.cshtml",
+              "RelativeToolTip": "FancySignup\\Views\\Account\\SignupSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T22:55:06.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "FancySignup\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "FancySignup\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T22:39:32.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FancySignup\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FancySignup\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T22:32:26.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "FancySignup\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "FancySignup\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-30T22:24:35.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "FancySignup\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "FancySignup\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-30T22:23:01.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FancySignup\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\miste\\Documents\\GitHub\\Pokedex\\pokedex\\FancySignup\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FancySignup\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T22:22:13.719Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

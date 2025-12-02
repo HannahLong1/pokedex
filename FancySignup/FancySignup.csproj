@@ -19,6 +19,7 @@
     </PackageReference>
 
     <PackageReference Include="PokeApiNet" Version="4.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.0.1" />
   </ItemGroup>
 
 </Project>
