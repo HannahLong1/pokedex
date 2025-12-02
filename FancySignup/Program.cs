@@ -59,10 +59,6 @@ using (var scope = app.Services.CreateScope())
 
     db.SaveChanges();
 }
-// ==========================================
-// 2. BUILD THE APP (This line was missing/too late)
-// ==========================================
-var app = builder.Build();
 
 // ==========================================
 // 3. CONFIGURE THE HTTP REQUEST PIPELINE
