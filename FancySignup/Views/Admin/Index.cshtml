@@ -1,0 +1,69 @@
+@model FancySignup.ViewModels.AdminDashboardViewModel
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h1>Admin Dashboard</h1>
+<p>Welcome, admin! Only admins should be able to see this page.</p>
+
+<hr />
+
+<h3>Summary</h3>
+<ul>
+    <li>Total users: @Model.TotalUsers</li>
+    <li>Admin users: @Model.AdminUsers</li>
+    <li>Inactive users: @Model.InactiveUsers</li>
+</ul>
+
+<hr />
+
+<h3>Users</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Admin?</th>
+            <th>Active?</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var u in Model.Users)
+    {
+        <tr>
+            <td>@u.Email</td>
+            <td>@u.FullName</td>
+            <td>@u.CountryName</td>
+            <td>@(u.IsAdmin ? "Yes" : "No")</td>
+            <td>@(u.IsActive ? "Yes" : "No")</td>
+            <td>
+                @if (!u.IsAdmin)
+                {
+                    <form asp-action="MakeAdmin" method="post" style="display:inline">
+                        <input type="hidden" name="email" value="@u.Email" />
+                        <button type="submit" class="btn btn-sm btn-primary">Make Admin</button>
+                    </form>
+                }
+                else
+                {
+                    <form asp-action="RemoveAdmin" method="post" style="display:inline">
+                        <input type="hidden" name="email" value="@u.Email" />
+                        <button type="submit" class="btn btn-sm btn-warning">Remove Admin</button>
+                    </form>
+                }
+
+                <form asp-action="ToggleActive" method="post" style="display:inline">
+                    <input type="hidden" name="email" value="@u.Email" />
+                    <button type="submit" class="btn btn-sm btn-secondary">
+                        @(u.IsActive ? "Disable" : "Enable")
+                    </button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

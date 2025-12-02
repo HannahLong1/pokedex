@@ -3,6 +3,7 @@ using FancySignup.Data;
 using FancySignup.Models;
 using FancySignup.ViewModels;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
 
 namespace FancySignup.Controllers
 {
@@ -15,20 +16,19 @@ namespace FancySignup.Controllers
             _db = db;
         }
 
-        // Initial page
         public IActionResult Index()
         {
             return View();
         }
 
-        // Signup GET
+        // GET: /Account/Signup
         public IActionResult Signup()
         {
             ViewBag.Countries = _db.Countries.ToList();
             return View();
         }
 
-        // Signup POST
+        // POST: /Account/Signup
         [HttpPost]
         public IActionResult Signup(SignupViewModel model)
         {
@@ -51,7 +51,9 @@ namespace FancySignup.Controllers
                 FirstName = model.FirstName,
                 LastName = model.LastName,
                 CountryId = model.CountryId,
-                Password = model.Password
+                Password = model.Password,
+                IsAdmin = false,   // normal user by default
+                IsActive = true    // active by default
             };
 
             _db.People.Add(person);
@@ -65,13 +67,13 @@ namespace FancySignup.Controllers
             return View();
         }
 
-        // Login GET
+        // GET: /Account/Login
         public IActionResult Login()
         {
             return View();
         }
 
-        // Login POST
+        // POST: /Account/Login
         [HttpPost]
         public IActionResult Login(string email, string password)
         {
@@ -83,13 +85,37 @@ namespace FancySignup.Controllers
                 return View();
             }
 
+            if (!user.IsActive)
+            {
+                ViewBag.Error = "Your account has been disabled. Please contact an administrator.";
+                return View();
+            }
+
+            // store basic info in session
+            HttpContext.Session.SetString("UserEmail", user.Email);
+            HttpContext.Session.SetString("IsAdmin", user.IsAdmin ? "true" : "false");
+
+            if (user.IsAdmin)
+            {
+                // admin → admin dashboard
+                return RedirectToAction("Index", "Admin");
+            }
+
+            // normal user
             return RedirectToAction("LoginSuccess", new { email = user.Email });
         }
 
         public IActionResult LoginSuccess(string email)
         {
-            var user = _db.People.First(p => p.Email == email);
+            var user = _db.People.FirstOrDefault(p => p.Email == email);
+            if (user == null) return RedirectToAction("Login");
+
             ViewBag.Name = $"{user.FirstName} {user.LastName}";
+            return View();
+        }
+
+        public IActionResult AccessDenied()
+        {
             return View();
         }
     }

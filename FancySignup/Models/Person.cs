@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Diagnostics.Metrics;
 
 namespace FancySignup.Models
 {
@@ -18,10 +17,15 @@ namespace FancySignup.Models
 
         [Required]
         public int CountryId { get; set; }
-
         public Country Country { get; set; }
 
         [Required]
         public string Password { get; set; }
+
+        // Already added earlier
+        public bool IsAdmin { get; set; } = false;
+
+        // New: used for disabling / locking accounts
+        public bool IsActive { get; set; } = true;
     }
 }
