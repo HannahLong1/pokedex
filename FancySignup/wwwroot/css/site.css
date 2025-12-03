@@ -38,8 +38,6 @@ body {
     .custom-red-nav .nav-link {
         color: #ffffff !important;
     }
-
-        /* Optional: On hover, keep it white or make it lighter */
         .custom-red-nav .nav-link:hover {
             color: #f2f2f2 !important;
         }

@@ -4,11 +4,6 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// MVC
-// ==========================================
-// 1. ADD SERVICES TO THE CONTAINER
-// ==========================================
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -21,7 +16,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // HttpClient for APIs
 builder.Services.AddHttpClient();
 
-// SESSION
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
@@ -60,10 +54,6 @@ using (var scope = app.Services.CreateScope())
     db.SaveChanges();
 }
 
-// ==========================================
-// 3. CONFIGURE THE HTTP REQUEST PIPELINE
-// ==========================================
-
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -77,20 +67,18 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Static files must be loaded before routing
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
 app.UseRouting();
 app.UseSession();
 
-app.UseAuthorization(); // (Optional: Good practice to keep if you add login later)
+app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-// This is required for [Route("api/[controller]")] to work!
 app.MapControllers(); 
 
 app.Run();
